@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-google-play-services-check",
+  "version": "1.0.0",
+  "description": "Cordova/Ionic/Phonegap plugin for checking that the Google Play Services are installed, updated and enabled",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelety/cordova-plugin-google-play-services-check.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "ionic",
+    "google",
+    "play",
+    "services"
+  ],
+  "author": "Pavel Antoshenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pavelety/cordova-plugin-google-play-services-check/issues"
+  },
+  "homepage": "https://github.com/pavelety/cordova-plugin-google-play-services-check#readme"
+}
