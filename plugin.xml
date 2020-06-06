@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="@pavelety/cordova-plugin-google-play-services-check" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="@pavelety/cordova-plugin-google-play-services-check" version="1.0.1">
     <name>Google Play Services Check</name>
     <description>
         Cordova/Ionic/Phonegap plugin for checking that the Google Play Services are installed, updated and enabled
