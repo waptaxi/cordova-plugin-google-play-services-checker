@@ -10,11 +10,11 @@ The plugin can be installed via Cordova-CLI and is publicly available on NPM.
 
 Execute from the project root folder:
 ```shell
-$ cordova plugin add cordova-plugin-google-play-services-check
+$ cordova plugin add @pavelety/cordova-plugin-google-play-services-check
 ```
 Or with Ionic
 ```shell
-$ ionic cordova plugin add cordova-plugin-google-play-services-check
+$ ionic cordova plugin add @pavelety/cordova-plugin-google-play-services-check
 ```
 #Usage
 The plugin creates the object GooglePlayServices, and it's accessible after deviceready has been fired.
