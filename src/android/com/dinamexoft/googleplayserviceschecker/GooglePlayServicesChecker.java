@@ -1,4 +1,4 @@
-package com.dinamexoft.googleplayservicescheck;
+package com.dinamexoft.googleplayserviceschecker;
 
 import android.util.Log;
 import com.google.android.gms.common.ConnectionResult;
@@ -9,9 +9,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class GooglePlayServicesCheck extends CordovaPlugin {
+public class GooglePlayServicesChecker extends CordovaPlugin {
 
-    private static final String APPTAG = "GooglePlayServicesCheck";
+    private static final String APPTAG = "GooglePlayServicesChecker";
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

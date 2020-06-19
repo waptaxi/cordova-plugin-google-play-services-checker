@@ -1,4 +1,4 @@
-#Cordova Plugin Google Play Services Check
+#Cordova Plugin Google Play Services Checker
 Cordova/Ionic/Phonegap plugin for checking that the Google Play Services are installed, updated and enabled on Android device.
 
 #Why
@@ -10,14 +10,14 @@ The plugin can be installed via Cordova-CLI and is publicly available on NPM.
 
 Execute from the project root folder:
 ```shell
-$ cordova plugin add @pavelety/cordova-plugin-google-play-services-check
+$ cordova plugin add cordova-plugin-google-play-services-checker
 ```
 Or with Ionic
 ```shell
-$ ionic cordova plugin add @pavelety/cordova-plugin-google-play-services-check
+$ ionic cordova plugin add cordova-plugin-google-play-services-checker
 ```
 #Usage
-The plugin creates the object GooglePlayServices, and it's accessible after deviceready has been fired.
+The plugin creates the object GooglePlayServicesChecker, and it's accessible after deviceready has been fired.
 
 ```js
 document.addEventListener('deviceready', function () {
@@ -31,7 +31,7 @@ document.addEventListener('deviceready', function () {
   var failure = function(reason) {
     console.error('error: ' + reason)
   }
-  GooglePlayServices.check(success, failure);
+  GooglePlayServicesChecker.check(success, failure);
 })
 ```
 Or for Ionic-v4:
@@ -51,7 +51,7 @@ export class MyPage {
       var failure = function(reason) {
         console.error('error: ' + reason)
       }
-      GooglePlayServices.check(success, failure);
+      GooglePlayServicesChecker.check(success, failure);
     });
   }
 }
@@ -73,7 +73,7 @@ Or enhanced example for Ionic-v1:
       var failure = function (reason) {
         console.error('Google Play Services error: ' + reason)
       }
-      GooglePlayServicesCheck.check(success, failure);
+      GooglePlayServicesChecker.check(success, failure);
     }
   }
 
