@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-google-play-services-checker" version="1.0.3">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-google-play-services-checker" version="1.0.4">
     <name>Google Play Services Checker</name>
     <description>
         Cordova/Ionic/Phonegap plugin for checking that the Google Play Services are installed, updated and enabled
@@ -22,7 +22,7 @@
                 <param name="android-package" value="com.dinamexoft.googleplayserviceschecker.GooglePlayServicesChecker"/>
             </feature>
         </config-file>
-        <source-file src="src/android/com/dinamexoft/googleplayservicescheck/GooglePlayServicesChecker.java"
-                     target-dir="src/com/dinamexoft/googleplayservicescheck"/>
+        <source-file src="src/android/com/dinamexoft/googleplayserviceschecker/GooglePlayServicesChecker.java"
+                     target-dir="src/com/dinamexoft/googleplayserviceschecker"/>
     </platform>
 </plugin>
