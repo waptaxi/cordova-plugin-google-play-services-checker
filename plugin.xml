@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-google-play-services-checker" version="1.0.4">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-google-play-services-checker" version="1.0.5">
     <name>Google Play Services Checker</name>
     <description>
         Cordova/Ionic/Phonegap plugin for checking that the Google Play Services are installed, updated and enabled
@@ -15,7 +15,7 @@
 
     <!-- android -->
     <platform name="android">
-        <preference name="GOOGLE_PLAY_SERVICES_VERSION" default="17+"/>
+        <preference name="GOOGLE_PLAY_SERVICES_VERSION" default="17.+"/>
         <framework src="com.google.android.gms:play-services-location:$GOOGLE_PLAY_SERVICES_VERSION"/>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="GooglePlayServicesChecker">
